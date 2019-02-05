@@ -8,3 +8,7 @@
 // Si es una ruta como la marcada anteriormente buscará el módulo en el core. (Por ejemplo fs (FileSystemr))
 // Si el módulo no es del core de Node.js, buscará en la carpeta node_modules local
 // Si tampoco se encuentra en la carpeta local buscará el módulo en la carptea node_modules global.
+
+var math = require('./modulos/suma');
+
+console.log('Suma 5 + 6: ' + math.suma(5, 6) + '   |    Resta 5 - 6: ' + math.resta(5, 6));
