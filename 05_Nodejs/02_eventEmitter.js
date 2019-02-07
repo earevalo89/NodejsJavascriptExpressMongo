@@ -21,3 +21,4 @@ function vibrarTelefono() {
 myEmmiter.emit('llamar telefono');
 console.log("..........................");
 myEmmiter.emit('llamar telefono', 'madre');
+myEmmiter.emit('llamar telefono');
